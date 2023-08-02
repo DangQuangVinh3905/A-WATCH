@@ -144,7 +144,7 @@ int main(){
         // set time counter
         else if (state == 1) {
             printf("Enter time set `hh:mm:ss`: ");
-            y = scanf("%d %d %d", &hs, &ms, &ss);
+            y = scanf("%d:%d:%d", &hs, &ms, &ss);
             state = -1;
         }
         if (y == 3) {COUNT_REV();}
